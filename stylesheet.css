@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    position: fixed;
+    background: rgb(218, 14, 14);
+    width: 80%;
+    opacity: 1.5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 82px;
+    border-radius: 52px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navContainer nav ul{
+    display: flex;
+
+}
+
+.navContainer nav ul li{
+    list-style: none;
+}
+
+.navContainer nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.navContainer .login button{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+      background-color: blueviolet;
+      color: white;
+      border-radius: 40px;
+      border: none;
+}
+.herocontainer{
+    background-image: url(space.avif);
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -88px;
+}
+
+
+.herocontent{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: black;
+}
