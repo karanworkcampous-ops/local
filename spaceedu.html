@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceedu - Explore the Earth</title>
+    <link rel="stylesheet" href="spaceedu.css">
+    <!-- Three.js for 3D Earth -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Animated background stars -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <header>
+        <div class="logo">Space<span>edu</span></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Earth</a></li>
+                <li><a href="#">Missions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-btn">
+            <button>Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>Discover<br>Our <span>Planet</span></h1>
+            <p>Explore the beauty and mysteries of Earth through our interactive 3D platform. Dive into space education with immersive UI/UX design and real-time 3D animations.</p>
+            <div class="action-btns">
+                <button class="primary-btn">Explore Now</button>
+                <button class="secondary-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+                    </svg>
+                    Watch Video
+                </button>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>12.7K</h3>
+                    <p>Diameter (km)</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5.97</h3>
+                    <p>Mass (10^24 kg)</p>
+                </div>
+                <div class="stat-item">
+                    <h3>1</h3>
+                    <p>Moon</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="earth-container" id="earth-container">
+            <!-- 3D Earth will be rendered here via JS -->
+            <div class="loading">Loading Earth...</div>
+        </div>
+    </main>
+
+    <script src="spaceedu.js"></script>
+</body>
+</html>
